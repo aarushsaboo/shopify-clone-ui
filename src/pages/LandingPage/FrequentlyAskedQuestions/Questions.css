@@ -1,0 +1,31 @@
+
+.question .question-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #585858;
+}
+
+.question.expanded .question-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0px solid #ccc;
+}
+
+.question-container span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.question-container button{
+    font-size: 40px;
+    font-weight: 100;
+}
+.question p{
+    padding-top: 1em;
+    font-size: 16px;
+    font-weight: 200;
+    border-bottom: 1px solid #585858;
+    padding-bottom: 1em;
+}

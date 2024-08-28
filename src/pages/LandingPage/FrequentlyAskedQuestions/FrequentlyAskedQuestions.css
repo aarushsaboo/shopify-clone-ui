@@ -1,0 +1,58 @@
+.frequently-asked-questions-container{
+    background-color: rgb(240, 239, 236);
+    width: 65%;
+    margin: 0 auto;
+}
+#faq{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#faq section div{
+    flex: 1 1 auto;
+}
+
+#faq section{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#faq section div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#faq section div input{
+    max-width: 30.65em;
+    width: 60%;
+}
+
+#faq section div button{
+    max-width: 9.0625em;
+    width: 40%;
+}
+
+.questions-container ul{
+    list-style-type: none;
+}
+
+.questions-container ul li button{
+    cursor: pointer;
+    border: none;
+}
+
+.frequently-asked-questions h2{
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.5em;
+    letter-spacing: -1px;
+}
+
+.frequently-asked-questions{
+    padding-bottom: calc(1em + 7.5%);
+}

@@ -1,0 +1,57 @@
+.min-width-wrapper{
+    min-width: 490px;
+    overflow-x: auto;
+}
+
+body{
+    min-width: 490px;
+}
+
+.pillars-builder{
+    background-image: radial-gradient(circle at bottom right, rgb(140, 194, 83) 0%, white 50%);
+    background-size: 150% 100%;
+}
+
+.builder-perks-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    gap: 20px; 
+    padding: 0; 
+    margin: 7.5% 7.5%;
+    background-image: conic-gradient(from 135deg at top right, 
+                                     rgba(140, 194, 83, 0.3) 0deg, 
+                                     rgba(255, 255, 255, 0.1) 90deg);
+    background-size: 150% 150%; /* Slightly larger than the container */
+    background-position: top right;
+}
+
+.builder-perks-grid ul{
+    list-style-type: none; 
+}
+
+.section-heading__heading--1{
+    text-align: center;
+    font-weight: 700;
+}
+
+@media (max-width: 1338px){
+    .builder-perks-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1106px){
+    .builder-perks-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}
+
+.pillars-business-base-container{
+    margin: 0 7.5%;
+    background-color: rgb(240, 239, 236);
+    width: 100%;
+}

@@ -1,0 +1,135 @@
+.pillars-get-builder{
+  background-color: white;
+  margin: 3em 8em;
+}
+
+.pillars-get-builder .text-content{
+  padding-left: 4.12em;
+  /* line-height: 200%; */
+}
+
+.pillars-get-builder h2{
+  font-size: 48px;
+}
+
+h4::before {
+  content: "⌄";
+  position: relative;
+  bottom: 0.35em; /* Adjust the value as needed to move the caret up or down */
+  margin-right: 0.5em;
+  background-size: 140% 140%;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.375;
+  font-weight: 700;
+  letter-spacing: -0.038125em;
+  margin: 0;
+}
+
+#pgb {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 2.5em;
+  width: 100%;
+  margin-top: 0em;
+  margin-bottom: 9em;
+}
+.pillars-get-builder .content-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#pgb .cta-form {
+  width: 100%;
+}
+
+.pillars-get-builder .content-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.pillars-get-builder .content-wrapper .text-content {
+  width: 30vw;
+}
+
+.pillars-get-builder .content-wrapper .accordion-container {
+  width: 70vw;
+}
+.accordion-item {
+  color: white;
+}
+
+.pillars-get-builder .content-wrapper #pgb p {
+  text-align: start;
+  font-weight: 100;
+}
+
+.pillars-get-builder .content-wrapper #pgb h2 {
+  text-align: start;
+  font-weight: 700;
+}
+
+.accordion-container{
+  padding-right: 4em;
+}
+
+.accordion-item h4 {
+  border: none;
+  margin-left: 20px;
+  margin-right: 88px;
+  /* margin-top: 40px; */
+  padding-bottom: 15px;
+  border-bottom: solid 1px white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.accordion-item p {
+  font-size: 17px;
+  text-align: left;
+  padding-left: 42px;
+  padding-right: 27px;
+  opacity: 80%;
+  word-wrap: break-word;
+}
+
+.accordion-content.is-active {
+  max-height: 1000px;
+  transition: max-height 0.15s ease-in-out;
+}
+
+.accordion-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.15s ease-in-out;
+}
+
+@media (max-width: 653px) {
+  .pillars-get-builder .content-wrapper {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .accordion-item h4 {
+  font-size: 16px;
+}
+
+.accordion-item p {
+  font-size: 14px;
+}
+}
+
+@media (max-width: 632px) {
+  .pillars-get-builder .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+  }
+  #pgb {
+    margin-bottom: 5em;
+  }
+}

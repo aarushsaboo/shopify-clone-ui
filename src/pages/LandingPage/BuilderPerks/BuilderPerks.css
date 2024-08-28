@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+.builder-perks__flex-container {
+
+}
+
+.builder-perks__flex-container .heading--4{
+    font-weight: 600;
+}
+
+.builder-perks__flex-container .block__content{
+    font-weight: 200;
+}
+.icon--size-small{
+    height: 40px;
+    width: 40px;
+}

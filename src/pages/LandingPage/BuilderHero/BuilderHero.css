@@ -1,0 +1,268 @@
+/* ----BuilderHero---- */
+.website-builder {
+  background-color: white;
+}
+
+.content-wrapper {
+  background-color: black;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content {
+  background-color: black;
+  color: white;
+  height: 21.06em;
+  width: 27.06em;
+  margin: 0.3125em auto;
+  text-align: center;
+}
+
+/* section  */
+.headline {
+  margin-top: 4.56em;
+  padding-top: 6em;
+}
+
+.headline h1 {
+  font-size: 3em;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.375;
+  font-weight: 700;
+  letter-spacing: -0.038125em;
+  margin: 0;
+}
+
+.headline p {
+  margin: auto;
+  font-weight: 100;
+  font-size: 1.15em;
+  line-height: 1.5;
+  word-wrap: break-word;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* form  */
+.cta-form {
+  width: 100%;
+  margin-left: -1.5em; 
+  display: flex;
+  flex-direction: row;
+  padding: 1.5625em; 
+}
+
+.cta-form input {
+  font-size: 1em;
+  background-color: white;
+  padding: 0.9375em 2.1875em; 
+  margin-right: 1.0625em; 
+  text-align: left;
+  border-radius: 0.25em; 
+  border: 0.125em solid white; 
+}
+
+.cta-form input:active {
+  border: 0.125em solid rgb(140, 194, 83); 
+}
+
+.cta-form button {
+  font-size: 1em;
+  background-color: #d8ef55;
+  padding: 0.9375em 1em; 
+  border-radius: 0.25em; 
+  border: 0.125em solid #d8ef55; 
+}
+
+.cta-form button:hover {
+  background-color: rgb(140, 194, 83);
+}
+
+/* images */
+.image-gallery {
+  display: flex;
+  flex-direction: row;
+  margin-left: 9em;
+  margin-right: 9em;
+  padding-top: 10em;
+  justify-content: center;
+}
+
+.gallery-item {
+  flex: 1 1 auto;
+  padding: 0.3em;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: width 0.3s ease;
+  padding-right: 1em;
+}
+
+/* form, images */
+
+@media (max-width: 900px) {
+  .gallery-item img {
+    width: 110%;
+  }
+}
+
+
+@media (max-width: 898px) {
+  .gallery-item:nth-child(4) {
+    display: none;
+  }
+  .image-gallery {
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-top: 10em;
+    padding-top: 4.12em;
+  }
+  .gallery-item {
+    padding: 0.5em;
+  }
+  .cta-form input {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+    margin-right: 0;
+  }
+  .cta-form button {
+    width: 100%;
+  }
+  .cta-form {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image-gallery {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  .headline {
+    width: 100%;
+  }
+  .headline p {
+    overflow-wrap: break-word;
+  }
+}
+
+@media (max-width: 1613px) {
+  .content-wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 490px){
+  .cta-form{
+    width: 90vw;
+    margin-left: 0px;
+  }
+  .cta-form input{
+    width: 100%;
+    margin-right: none;
+    padding: none;
+  }
+  .cta-form button{
+    width: 100vw;
+    padding-right: 10px;
+    justify-content: center;
+    margin: 0;
+  }
+  .text-content section{
+    width: 100vw;
+  }
+  .text-content section p{
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+    .image-gallery{
+        padding-top: 10.38em;
+    }
+    .cta-form{
+    width: 90vw;
+    margin-left: 0px;
+  }
+  .cta-form input{
+    width: 100%;
+    margin-right: none;
+    padding: none;
+  }
+  .cta-form button{
+    width: 100vw;
+    padding-right: 10px;
+    justify-content: center;
+    margin: 0;
+  }
+  .text-content section{
+    width: 100vw;
+  }
+  .text-content section p{
+    width: 100%;
+  }
+}
+
+@media (max-width: 334px) {
+    .image-gallery{
+        padding-top: 14.11em;
+    }
+    .cta-form{
+    width: 90vw;
+    margin-left: 0px;
+  }
+  .cta-form input{
+    width: 100%;
+    margin-right: none;
+    padding: none;
+  }
+  .cta-form button{
+    width: 100vw;
+    padding-right: 10px;
+    justify-content: center;
+    margin: 0;
+  }
+  .text-content section{
+    width: 100vw;
+  }
+  .text-content section p{
+    width: 100%;
+  }
+}
+
+@media (max-width: 263px){
+    .image-gallery{
+        padding-top: 17.9em;
+    }
+    .cta-form{
+    width: 90vw;
+    margin-left: 0px;
+  }
+  .cta-form input{
+    width: 100%;
+    margin-right: none;
+    padding: none;
+  }
+  .cta-form button{
+    width: 100vw;
+    padding-right: 10px;
+    justify-content: center;
+    margin: 0;
+  }
+  .text-content section{
+    width: 100vw;
+  }
+  .text-content section p{
+    width: 100%;
+  }
+}
+
+@media (max-width: 427px){
+  .image-gallery{
+    padding-top: 10.11em;
+  }
+}

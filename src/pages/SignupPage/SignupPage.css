@@ -1,0 +1,163 @@
+.signup-page {
+  background: linear-gradient(90deg, rgb(57, 44, 84), rgb(29, 88, 85));
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
+
+.signup-page .white-box {
+  background-color: white;
+  width: 486px;
+  height: 823px;
+  margin: 2.75em 0;
+  border-radius: 12px;
+}
+
+.signup-page .white-box-big{
+    height: 826px;
+}
+.signup-page svg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.signup-page .step {
+  margin: 40px 40px 0px 40px;
+}
+
+.signup-page .step h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.signup-page .step h3 {
+  font-size: 14px;
+  opacity: 80%;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.step .flex-column-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.step .flex-column-container .signup-input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.step .flex-column-container .signup-input-wrapper input {
+  height: 40px;
+  width: auto;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 0, 0 , 0.4);
+  padding: 14px;
+}
+
+.step .flex-column-container .signup-input-wrapper input:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+.step .flex-column-container .signup-input-wrapper label{
+    font-size: 14px;
+    padding: 8px 0;
+}
+
+
+
+
+.password-guidelines span, .signup-page .step p{
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.8;
+    letter-spacing: -0.15px;
+    padding-top: 3px;
+}
+
+.name-flex-row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name-flex-row-container .signup-input-wrapper{
+    width: 49%;
+    
+}
+
+.flex-column-container button{
+    background-color: rgb(212, 212, 212);
+    color: rgb(255,255,255);
+    font-size: 15px;
+    font-weight: 700 !important;
+    height: 44px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.flex-column-container button:active{
+    background-color: rgb(42, 42, 42);
+    color: rgb(227, 227, 227);
+
+}
+
+.help-link a{
+    color: rgb(49, 69, 155);
+    cursor: pointer;
+}
+
+.help-link {
+    text-align: center;
+    padding-top: 20px;
+}
+.help-link p svg{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.help-link:hover svg{
+    transform: translateX(12%);
+    color: rgb(49, 69, 155);
+}
+
+.footer> p{
+    margin-top: 16px;
+}
+.footer> p> a{
+    color: rgb(56, 81, 206);
+    font-size: 11px;
+}
+
+.footer> p> a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .footer-links{
+    font-size: 11px;
+}
+
+.footer .footer-links a{
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.footer .footer-links a:hover{
+    text-decoration: underline;
+}
+
+.step> svg{
+    width: 92px;
+    height: 26.73px;
+    padding-bottom: 20px;
+}
