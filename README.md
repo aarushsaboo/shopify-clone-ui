@@ -41,18 +41,20 @@ Make sure you have the following installed on your system:
   
 This will start the application in development mode. Open http://localhost:3000 in your browser to view the application. The page will reload automatically when you make changes to the code.
 
-### Project Structure
+## Project Structure
 src/: Contains the source code for the project.
-public/: Contains public ast.sets like images and index.html.
-assets/: Stores static files such as images used in the projec
 
-### Features
+public/: Contains public assets like images and index.html.
+
+assets/: Stores static files such as images used in the project.
+
+## Features
 Customizable Website Builder: Users can create a unique online presence with customizable templates and themes.
 Product Management: Manage products, track inventory, and handle orders with ease.
 Integrations: Integrate with various apps and tools to extend functionality.
 
-### Contributing
+## Contributing
 Feel free to contribute to the project by submitting issues or pull requests. For detailed guidelines, please refer to the CONTRIBUTING.md file.
 
-### License
+## License
 This project is licensed under the MIT License.
