@@ -70,3 +70,12 @@
   font-size: 14px;
   font-weight: 600;
 }
+.pre-signup-page .buttons{
+  margin-left: 50px;
+}
+.pre-signup-page .buttons button{
+  background-color: white;
+  border: white;
+  padding: 5px;
+  cursor: pointer;
+}

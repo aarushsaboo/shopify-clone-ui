@@ -23,7 +23,7 @@ const StepZero = ({ formData, handleChange }) => {
             ></input>
             <label htmlFor="I'm-just-starting">I'm just starting</label>
           </div>
-          <div className="pre-signup-grid-item">
+          <div className="pre-signup-grid-item ">
             <input
               type="radio"
               id="I'm-already-selling"
